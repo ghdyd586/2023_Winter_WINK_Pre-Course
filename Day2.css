@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.item{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+    <div class = "login">
+        <div class="logo">
+            <img src="./logo.png" alt="logo"/>
+        </div>
+        <div class="logininput">
+            <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일" onchange="(handleInput(event))"/>
+            <input type="password" placeholder="비밀번호" onchange="(handleInput(event))"/>
+        </div>
+        <div class = "loginbutton">
+            <input type="button" id="log_btn" value="로그인"/>
+            <hr/>
+        </div>
+        <div class="other">
+            <div class="facebook">
+                <a href="https://facebook.com"><img src="./facebook.png" alt="login with facebook"/></a>
+            </div>
+            <div class="forget">
+                <a href="https://www.instagram.com/accounts/password/reset/">비밀번호를 잊으셨나요?</a>
+            </div>
+        </div>
+    </div>
+    <div class="signup">
+        <div class="noacc">
+            <a>계정이 없으신가요?</a>
+        </div>
+        <div class="make">
+            <a href="./signup.html">가입하기</a>
+        </div>
+    </div>
+    <div class="download">
+        <p>앱을 다운로드하세요.</p>
+        <div class="image">
+            <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="./apple.png" alt="app store"/></a>
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DsignupPage%26ig_mid%3D5BBED9F0-3B57-42C5-BFF3-DB4110042F42%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="./android.png" alt="google play"/></a>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footerlink">
+        <a href="#">Meta</a>
+        <a href="#">소개</a>
+        <a href="#">블로그</a>
+        <a href="#">채용정보</a>
+        <a href="#">도움말</a>
+        <a href="#">API</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">약관</a>
+        <a href="#">인기 계정</a>
+        <a href="#">위치</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">연락처 업로드 & 비사용자</a>
+        
+    </div>
+</footer>
+</html>
